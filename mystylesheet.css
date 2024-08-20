@@ -1,0 +1,41 @@
+#mainPage {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    padding: 100px 0;
+}
+#profile {
+    background-color: hsl(0, 0%, 12%);
+    display: flex column;
+    width: 20%;
+    margin: auto;
+    justify-content: center; 
+    text-align: center;  
+}
+img {
+    border-radius: 50%;
+    width: 75px;
+}
+h2,p,.social {
+    color: hsl(0, 0%, 100%);
+}
+h4 {
+    color: hsl(75, 94%, 57%);
+}
+.social {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5%;
+    margin:0 5% ;
+    height: 40px;
+    text-align: center;
+}
+p {
+    padding-top: 10px;
+}
+.social:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+.social:hover p {
+    color: black;
+}
